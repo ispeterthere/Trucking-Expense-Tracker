@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.menuController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Save" />
+            <MenuItem mnemonicParsing="false" text="Save As…" />
+            <MenuItem mnemonicParsing="false" text="Quit" />
+          </items>
+        </Menu>
+            <Menu mnemonicParsing="false" text="View">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#openCompanyDashboard" text="Company" />
+                  <MenuItem mnemonicParsing="false" onAction="#openEmployeeDashboard" text="Employee" />
+              </items>
+            </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="382.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button layoutX="76.0" layoutY="98.0" mnemonicParsing="false" onAction="#openCompanyDashboard" prefHeight="132.0" prefWidth="189.0" text="Company" />
+            <Button layoutX="337.0" layoutY="98.0" mnemonicParsing="false" onAction="#openEmployeeDashboard" prefHeight="132.0" prefWidth="189.0" text="Employee" />
+         </children></AnchorPane>
+  </children>
+</VBox>

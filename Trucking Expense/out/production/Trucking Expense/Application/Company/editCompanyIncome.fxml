@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="53.0" prefWidth="707.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="89.0" text="Back" />
+            <Label alignment="CENTER" prefHeight="53.0" prefWidth="620.0" text="Edit Company Income">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label layoutX="159.0" layoutY="79.0" text="Company Name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="212.0" text="Date Modified: ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="322.0" layoutY="213.0" prefHeight="25.0" prefWidth="198.0" />
+      <Button layoutX="226.0" layoutY="263.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="99.0" text="Save" />
+      <ComboBox layoutX="322.0" layoutY="80.0" prefHeight="25.0" prefWidth="198.0" />
+      <Label layoutX="167.0" layoutY="125.0" prefHeight="27.0" prefWidth="133.0" text="Income Entries:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="173.0" text="Edit Income:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="322.0" layoutY="173.0" prefHeight="25.0" prefWidth="198.0" />
+      <Button layoutX="372.0" layoutY="263.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="99.0" text="Delete" />
+      <ComboBox layoutX="322.0" layoutY="126.0" prefHeight="25.0" prefWidth="198.0" />
+   </children>
+</AnchorPane>
