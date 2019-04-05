@@ -31,23 +31,6 @@ public class Expense {
     }
 
     public void setMisc_expense(ArrayList<String> misc_expense) {
-
         this.misc_expense = misc_expense;
-        this.misc_expense.add("Motor Oil");
-        this.misc_expense.add("Radiator Coolant");
-        this.misc_expense.add("Battery");
-        this.misc_expense.add("Brakes");
-        this.misc_expense.add("Fuel tanks");
-        this.misc_expense.add("Suspension System");
-        this.misc_expense.add("Wheels and Rims");
-        this.misc_expense.add("Body");
-        this.misc_expense.add("Lights");
-        this.misc_expense.add("Engine");
-        this.misc_expense.add("Tools");
-        this.misc_expense.add("Tires");
-        this.misc_expense.add("Clutch");
-        this.misc_expense.add("Transmission");
-        this.misc_expense.add("Axle");
-        this.misc_expense.add("Vandalism");
     }
 }
