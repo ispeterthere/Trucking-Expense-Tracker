@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Company.companyDashboardController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="347.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Application.Controller.companyDashboardController">
    <children>
       <HBox prefHeight="53.0" prefWidth="707.0">
          <children>
@@ -25,13 +25,19 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="177.0" layoutY="160.0" text="Date Created: ">
+      <Label layoutX="177.0" layoutY="186.0" text="Date Created: ">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField layoutX="322.0" layoutY="106.0" prefHeight="25.0" prefWidth="198.0" />
-      <DatePicker layoutX="322.0" layoutY="161.0" prefHeight="25.0" prefWidth="198.0" />
-      <Button layoutX="291.0" layoutY="229.0" mnemonicParsing="false" onAction="#getCompany" prefHeight="53.0" prefWidth="99.0" text="Save" />
+      <TextField fx:id="companyName" layoutX="322.0" layoutY="106.0" onAction="#getCompany" prefHeight="25.0" prefWidth="198.0" />
+      <DatePicker fx:id="companyDC" layoutX="322.0" layoutY="187.0" onAction="#getCompany" prefHeight="25.0" prefWidth="198.0" />
+      <Button layoutX="291.0" layoutY="244.0" mnemonicParsing="false" onAction="#getCompany" prefHeight="53.0" prefWidth="99.0" text="Save" />
+      <Label layoutX="188.0" layoutY="147.0" text="Company ID:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="companyID" layoutX="322.0" layoutY="148.0" onAction="#getCompany" prefHeight="25.0" prefWidth="198.0" />
    </children>
 </AnchorPane>
