@@ -42,7 +42,16 @@ Result:
 		Week 2 |		 |				  | 		    |		 	   |					           |					  |
 		....   |		 |			      | 		    |			   |                               |					  |
 		
-		
+As a user I want to: 
+	Enter my companies Income
+	Enter my companies expenses
+	View my companies income (in a graph or list)
+	View my Expenses (in a graph or list)
+	View my Personal Income (in a graph or list)
+	See reports of all companies income, expenses and personal income: Monthly or Yearly
+	
+	
+	
 
 Color Scheme
 #2D3447 (Dark) #2196f3 #a0a2ab #151928
