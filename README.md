@@ -55,3 +55,5 @@ As a user I want to:
 
 Color Scheme
 #2D3447 (Dark) #2196f3 #a0a2ab #151928
+
+To set Graphs and Spinner to change as data is inputted use binding and properties class
